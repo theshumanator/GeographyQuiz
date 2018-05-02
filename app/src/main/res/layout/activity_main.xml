@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.fatoumeh.geographyquiz.MainActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        style="@style/frameStyle">
+
+        <TextView
+            style="@style/questionsStyle"
+            android:text="@string/user_name"/>
+
+        <EditText
+            style="@style/inputField"
+            android:hint="@string/user_name"
+            android:id="@+id/user_name"
+            android:inputType="text"/>
+
+        <TextView
+            style="@style/questionsStyle"
+            android:text="@string/question1" />
+        <RadioGroup
+            style="@style/radioGroupStyle">
+            <android.support.v7.widget.AppCompatRadioButton
+                style="@style/radioGroupStyle"
+                android:id="@+id/rb_q1_option_a"
+                android:text="@string/answer_1a"/>
+            <android.support.v7.widget.AppCompatRadioButton
+                style="@style/radioGroupStyle"
+                android:id="@+id/rb_q1_correct_answer"
+                android:text="@string/answer_1b"/>
+            <android.support.v7.widget.AppCompatRadioButton
+                style="@style/radioGroupStyle"
+                android:id="@+id/rb_q1_option_c"
+                android:text="@string/answer_1c"/>
+            <android.support.v7.widget.AppCompatRadioButton
+                style="@style/radioGroupStyle"
+                android:id="@+id/rb_q1_option_d"
+                android:text="@string/answer_1d"/>
+        </RadioGroup>
+
+        <TextView
+            android:text="@string/question2"
+            style="@style/questionsStyle"/>
+        <RadioGroup
+            style="@style/radioGroupStyle">
+            <android.support.v7.widget.AppCompatRadioButton
+                style="@style/radioGroupStyle"
+                android:id="@+id/rb_q2_option_a"
+                android:text="@string/answer_2a"/>
+            <android.support.v7.widget.AppCompatRadioButton
+                style="@style/radioGroupStyle"
+                android:id="@+id/rb_q2_option_b"
+                android:text="@string/answer_2b"/>
+            <android.support.v7.widget.AppCompatRadioButton
+                style="@style/radioGroupStyle"
+                android:id="@+id/rb_q2_correct_answer"
+                android:text="@string/answer_2c"/>
+            <android.support.v7.widget.AppCompatRadioButton
+                style="@style/radioGroupStyle"
+                android:id="@+id/rb_q2_option_d"
+                android:text="@string/answer_2d"/>
+        </RadioGroup>
+
+        <TextView
+            android:text="@string/question3"
+            style="@style/questionsStyle" />
+        <RadioGroup
+            style="@style/radioGroupStyle">
+            <android.support.v7.widget.AppCompatRadioButton
+                style="@style/radioGroupStyle"
+                android:id="@+id/rb_q3_option_a"
+                android:text="@string/answer_3a"/>
+            <android.support.v7.widget.AppCompatRadioButton
+                style="@style/radioGroupStyle"
+                android:id="@+id/rb_q3_option_b"
+                android:text="@string/answer_3b"/>
+            <android.support.v7.widget.AppCompatRadioButton
+                style="@style/radioGroupStyle"
+                android:id="@+id/rb_q3_option_c"
+                android:text="@string/answer_3c"/>
+            <android.support.v7.widget.AppCompatRadioButton
+                style="@style/radioGroupStyle"
+                android:id="@+id/rb_q3_correct_answer"
+                android:text="@string/answer_3d"/>
+        </RadioGroup>
+
+        <TextView
+            android:text="@string/question4"
+            style="@style/questionsStyle"/>
+        <CheckBox
+            style="@style/checkBoxStyle"
+            android:id="@+id/cb_q4_correct_answer1"
+            android:text="@string/answer_4a"/>
+        <CheckBox
+            style="@style/checkBoxStyle"
+            android:id="@+id/cb_q4_option_b"
+            android:text="@string/answer_4b"/>
+        <CheckBox
+            style="@style/checkBoxStyle"
+            android:id="@+id/cb_q4_option_c"
+            android:text="@string/answer_4c"/>
+        <CheckBox
+            style="@style/checkBoxStyle"
+            android:id="@+id/cb_q4_correct_answer2"
+            android:text="@string/answer_4d"/>
+
+        <TextView
+            android:text="@string/question5"
+            style="@style/questionsStyle"/>
+        <EditText
+            style="@style/inputField"
+            android:id="@+id/text_answer_5"
+            android:hint="@string/answer_5"
+            android:inputType="number"/>
+
+        <LinearLayout
+            style="@style/footerFrame">
+            <Button
+                style="@style/buttonStyle"
+                android:text="@string/submit_button"
+                android:onClick="submitClicked" />
+            <Button
+                style="@style/buttonStyle"
+                android:text="@string/reset_button"
+                android:onClick="resetClicked"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

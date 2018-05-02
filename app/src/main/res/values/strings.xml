@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Geography Quiz</string>
+
+    <string name="user_name">Enter your name</string>
+
+    <string name="question1">Q1. What is the capital city of The Gambia?</string>
+    <string name="question2">Q2. In which continent is Vietnam?</string>
+    <string name="question3">Q3. Which ocean is between West Africa and East of United States?</string>
+    <string name="question4">Q4. Which of the following countries below speak Portuguese as their official language?</string>
+    <string name="question5">Q5. How many continents are in the world? (Enter number only)</string>
+
+    <string name="answer_1a">Freetown</string>
+    <string name="answer_1b">Banjul</string>
+    <string name="answer_1c">Washington</string>
+    <string name="answer_1d">London</string>
+
+    <string name="answer_2a">North America</string>
+    <string name="answer_2b">Europe</string>
+    <string name="answer_2c">Asia</string>
+    <string name="answer_2d">Africa</string>
+
+    <string name="answer_3a">Indian Ocean</string>
+    <string name="answer_3b">Southern Ocean</string>
+    <string name="answer_3c">Pacific Ocean</string>
+    <string name="answer_3d">Atlantic Ocean</string>
+
+    <string name="answer_4a">Guinea Bissau</string>
+    <string name="answer_4b">Indonesia</string>
+    <string name="answer_4c">Ghana</string>
+    <string name="answer_4d">Brazil</string>
+
+    <string name="answer_5">Enter number</string>
+
+    <string name="answer1">Banjul</string>
+    <string name="answer2">Asia</string>
+    <string name="answer3">Atlantic Ocean</string>
+    <string name="answer4">Brazil and Guinea Bissau</string>
+    <string name="answer5">7</string>
+
+    <string name="submit_button">Submit</string>
+    <string name="reset_button">Reset</string>
+
+</resources>
